@@ -15,19 +15,8 @@ int main(){
         getchar();
         getchar();
     }
-    //teste(&lista);
+}
 
-}
-void teste(Header *lista){
-    leArquivo(lista, "NomeRG100M.txt");
-   // printaLista(lista);
-    lista->vetorPtr = criaListaPtr(lista);
-    quickSortIndireto(lista, 0, lista->tamanho-1);
-    copiaVtrParaLista(lista);
-  //  printaLista(lista);
-   // buscaLinearRG(lista , 48864291);
-    //binarySearch(lista, 48864291); //455197
-}
 
 
 

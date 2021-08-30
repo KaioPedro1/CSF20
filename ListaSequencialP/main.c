@@ -15,11 +15,3 @@ int main()
     return 0;
 }
 
-/*void teste(Dados *lista){
-    leArquivo(lista, "NomeRG100M.txt");
-    //printaLista(lista);
-    quickSortDireto(lista, 0, Tamanho-1);
-    //printf("\n\n\n\n\n%d", lista[5874221].rg);
-    //printaLista(lista);
-   // binarySearch(lista,84293914);
-}*/
